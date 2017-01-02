@@ -1,0 +1,28 @@
+---
+title:  "Maceió 2015"
+subtitle: 'O JSday Maceió provou que é possível romper as barreiras e levar conhecimento para o Nordeste inteiro.'
+author: "Juarez Filho"
+avatar: "img/authors/juarez-filho.jpg"
+image: "img/mcz2015.jpg"
+date:   2015-09-12 08:00:00
+---
+
+### Maceió 2015
+O JSday Maceió foi a segunda edição do JSday Brasil, e provou a força da comunidade JavaScript Alagoano.
+
+Essa edição contou com alto nível técnico das palestras, com a presença do Juarez Filho, Google Developer Expert, e o Felipe de Albuquerque, Front End Engineer no CESAR Recife com a palestra "NodeBots: JavaScript além das telas".
+
+Além de expandir o número de participantes, o JSday Maceió provou que é possível romper as barreiras e levar conhecimento para o Nordeste inteiro.
+
+### Ficha Técnica
+212
+PARTICIPANTES
+
+10
+PALESTRAS
+
+1
+WORKSHOP
+
++16h
+DE CONTEÚDO

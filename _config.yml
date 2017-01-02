@@ -1,0 +1,10 @@
+# Site settings
+title: JSDay Brasil
+description: Descubra porque esse é o evento que mais cresce no Brasil, e porque ele está ficando na cabeça e no coração de todos
+keywords: JavaScript, evento, jsday, evento de javascript
+author: JSDay Core Theam
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter: "https://twitter.com/jsdaybr"
+facebook: "https://www.facebook.com/jsdaybr/"
+youtube: "https://www.youtube.com/channel/UCb5wP3mGm-UX7K-DaXxItbg"

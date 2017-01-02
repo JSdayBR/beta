@@ -1,0 +1,29 @@
+---
+title:  "Recife 2015"
+subtitle: "Uma edição para ficar na memória e no coração dos JavaScripters presentes"
+author: "Felipe de Albuquerque"
+avatar: "img/authors/felipe.jpg"
+image: "img/rec2015.jpg"
+date:   2015-12-12 08:00:00
+---
+
+### Recife 2015
+O JSday Recife foi a edição que gerou mais conteúdo, foram mais de 36 horas divididas entre as atividades do dia.
+
+Esta edição foi realizado nas instalações do CESAR EDU, braço acadêmico do maior instituto de inovação e pesquisa do Brasil, o CESAR, que fica no coração do vale do silício do Brasil, o Porto Digital.
+
+Uma edição para ficar na memória e no coração dos JavaScripters presentes, além de provar que essa linguagem está em todos lugares.
+
+### Ficha Técnica
++226
+PARTICIPANTES
+
+24
+PALESTRAS
+
+4
+WORKSHOPS
+
+
++36h
+DE CONTEÚDO
