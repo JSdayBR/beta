@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "JSday Recife"
 date:   2016/11/26
 ---
