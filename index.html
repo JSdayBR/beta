@@ -4,15 +4,32 @@ title: JSDAYBRASIL
 ---
 
 <h1>Edições</h1>
-<h2>{{filter}}</h2>
-{% for filter in site.data.filters %}
-<ul>
-  {% assign year = filter["year"] %}
-  <li><a href="/?filter={{year}}">{{year}}</a></li>
-</ul>
-{% endfor %}
-<ul class="events">
+
+<nav>
   {% for event in site.categories.events %}
-    <li><span>{{ event.date | date_to_string }}</span> &raquo; <a href="{{ event.url }}">{{ event.title }}</a></li>
+    {% assign currentdate = event.date | date: "%Y" %}
+    {% if currentdate != date %}
+      <a href="#{{currentdate}}">{{currentdate}}</a>
+      {% assign date = currentdate %}
+    {% endif %}
   {% endfor %}
-</ul>
+</nav>
+
+<div class="events">
+{% for event in site.categories.events %}
+  {% assign currentdate = event.date | date: "%Y" %}
+  {% if currentdate != date %}
+    <section id="{{currentdate}}">
+  {% endif %}
+      <article>
+        <h2>{{ event.title }}</h2>
+        <img src="" alt="">
+        <span>{{ event.date | date_to_string }}</span>
+        <p>{{ event.content }}</p>
+      </article>
+  {% if currentdate != date %}
+    </section>
+    {% assign date = currentdate %}
+  {% endif %}
+{% endfor %}
+</div>
