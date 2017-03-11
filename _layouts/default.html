@@ -8,15 +8,15 @@
     <header id="home" class="header">
       <div class="header__wrap">
         <h1 class="header__title">
-          <a href="/">{{ site.name }}<span>{{ site.country }}</span></a>
+          <a href="{{ site.baseurl }}">{{ site.name }}<span>{{ site.country }}</span></a>
         </h1>
         <nav class="nav">
-          <a class="nav__item nav__item--current" class="link" href="/">home</a>
-          <a class="nav__item" class="link" href="/">edições</a>
-          <a class="nav__item" class="link" href="/">sobre</a>
+          <a class="nav__item nav__item--current" class="link" href="{{ site.baseurl }}">Home</a>
+          <a class="nav__item" class="link" href="{{ "/edicoes" | prepend: site.baseurl }}">Edições</a>
+          <a class="nav__item" class="link" href="{{ "/sobre" | prepend: site.baseurl }}">Sobre</a>
         </nav>
         <section class="header__about">
-          <img src="/assets/images/header.png" alt="JS">
+          <img src="{{ "/assets/images/header.png" | prepend: site.baseurl }}" alt="JS">
           <p>Descubra porque esse é o evento que mais cresce no Brasil, e porque ele está ficando na cabeça e no coração de todos.</p>
         </section>
       </div>
@@ -25,17 +25,16 @@
       {{ content }}
     </section>
     <section id="newsletter">
-        <h3>Fique ligado e rebeba todas as novidades do JSDay Brasil!</h3>
+        <h3>Fique ligado e receba todas as novidades do JSday Brasil!</h3>
         <span>Também não gostamos de spam :)</span>
         <input type="email" name="" id="">
         <button>ENVIAR!</button>
     </section>
     <section id="footer">
       <div>
-        <p>Quer organizar JSDay no seu estado? Mande um email para jsdaybt@gmail.com</p>
+        <p>Quer organizar o JSday no seu estado? Mande um email para <a class="link" href="mailto:jsdaybr@gmail.com">jsdaybr@gmail.com</a></p>
       </div>
     </section>
   </div>
 </body>
-
 </html>

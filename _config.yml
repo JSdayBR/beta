@@ -1,2 +1,4 @@
-name: JSDay
-country: Brasil
+site:
+  -name: JSday
+  -country: Brasil
+  -baseurl: ''
