@@ -9,6 +9,6 @@
 }
 
 @mixin monoidbold($size: 14px, $height: 1) {
-  font: 700 $size 'monoidbold', sans-serif;
+  font: 400 $size 'monoidbold', sans-serif;
   line-height: $height;
 }

@@ -27,20 +27,23 @@
 </head>
 
 <body>
-  <section class="site">
-    <section id="header">
-      <h1 class="title">
-        <a href="/">{{ site.name }}</a>
+  <div class="site">
+    <header id="home" class="header">
+      <div class="header__wrap">
+        <h1 class="header__title">
+          <a href="/">{{ site.name }}<span>{{ site.country }}</span></a>
         </h1>
-      <nav>
-        <a class="link" href="/">home</a>
-        <a class="link" href="/">edições</a>
-        <a class="link" href="/">sobre</a>
-      </nav>
-      <article>
-        Descubra porque esse é o evento que mais cresce no Brasil, e porque ele está ficando na cabeça e no coração de todos.
-      </article>
-    </section>
+        <nav class="nav">
+          <a class="nav__item nav__item--current" class="link" href="/">home</a>
+          <a class="nav__item" class="link" href="/">edições</a>
+          <a class="nav__item" class="link" href="/">sobre</a>
+        </nav>
+        <section class="header__about">
+          <img src="/assets/images/header.png" alt="JS">
+          <p>Descubra porque esse é o evento que mais cresce no Brasil, e porque ele está ficando na cabeça e no coração de todos.</p>
+        </section>
+      </div>
+    </header>
     <section id="container">
       {{ content }}
     </section>
@@ -55,7 +58,7 @@
         <p>Quer organizar JSDay no seu estado? Mande um email para jsdaybt@gmail.com</p>
       </div>
     </section>
-  </section>
+  </div>
 </body>
 
 </html>
