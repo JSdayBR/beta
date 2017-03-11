@@ -1,0 +1,14 @@
+@mixin monoid($size: 14px, $height: 1) {
+  font: 400 $size 'monoidregular', sans-serif;
+  line-height: $height;
+}
+
+@mixin monoiditalic($size: 14px, $height: 1) {
+  font: 400 $size 'monoiditalic', sans-serif;
+  line-height: $height;
+}
+
+@mixin monoidbold($size: 14px, $height: 1) {
+  font: 700 $size 'monoidbold', sans-serif;
+  line-height: $height;
+}
