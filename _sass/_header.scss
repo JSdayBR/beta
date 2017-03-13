@@ -13,6 +13,7 @@
   }
 
   .header__title {
+    position: fixed;
     @include monoidbold(18px);
     margin: initial;
     text-transform: uppercase;
@@ -44,6 +45,8 @@
   }
 
   .nav {
+    position: fixed;
+    right: 300px;
     float: right;
     .nav__item {
       @include monoidbold(18px);

@@ -11,9 +11,8 @@
           <a href="{{ site.baseurl }}">{{ site.name }}<span>{{ site.country }}</span></a>
         </h1>
         <nav class="nav">
-          <a class="nav__item nav__item--current" class="link" href="{{ site.baseurl }}">Home</a>
-          <a class="nav__item" class="link" href="{{ "/edicoes" | prepend: site.baseurl }}">Edições</a>
-          <a class="nav__item" class="link" href="{{ "/sobre" | prepend: site.baseurl }}">Sobre</a>
+          <a class="nav__item nav__item--current" class="link" href="#home">home</a>
+          <a class="nav__item" class="link" href="#events">edições</a>
         </nav>
         <section class="header__about">
           <img src="{{ "/assets/images/header.png" | prepend: site.baseurl }}" alt="JS">
@@ -37,4 +36,7 @@
     </section>
   </div>
 </body>
+
+{% include javascripts.html %}
+
 </html>
