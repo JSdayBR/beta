@@ -1,0 +1,23 @@
+#footer {
+  max-width: 100%;
+  margin: 0 auto;
+  background: $background-dark;
+}
+
+#footer .hero {
+  min-height: 30vh;
+  img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+}
+
+#footer .footline {
+  height: 5vh;
+  background: #fff;
+  h3 {
+    text-align: center;
+    padding-top: 15px;
+  }
+}

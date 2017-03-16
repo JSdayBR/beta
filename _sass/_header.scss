@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  min-height: 100vh;
+  min-height: 80vh;
   background: $background-dark;
   color: $color-light;
 
@@ -30,7 +30,7 @@
   .header__about {
     clear: both;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 120px;
     text-align: center;
     font-size: 16px;
     img {

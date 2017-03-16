@@ -9,17 +9,28 @@ title: JSdayBR
     {% for event in site.categories.events %}
       {% assign currentdate = event.date | date: "%Y" %}
       {% if currentdate != date %}
-        <a href="#{{currentdate}}">{{currentdate}}</a>
+        <a class='nav__event_item' href="#{{currentdate}}">{{currentdate}}</a>
         {% assign date = currentdate %}
       {% endif %}
     {% endfor %}
   </nav>
 
   <div class="events">
+  {% assign date = '' %}
+  {% assign init = 'true' %}
   {% for event in site.categories.events %}
     {% assign currentdate = event.date | date: "%Y" %}
+    {% if currentdate != date and init != 'true' %}
+      </section>
+    {% endif %}
     {% if currentdate != date %}
-      <section id="{{currentdate}}">
+      {% if init == 'true' %}
+        <section id="{{currentdate}}" class="event_year current">
+      {% else %}
+        <section id="{{currentdate}}" class="event_year">
+      {% endif %}
+      {% assign date = currentdate %}
+      {% assign init = 'false' %}
     {% endif %}
         <article>
           <h2>{{ event.title }}</h2>
@@ -27,10 +38,6 @@ title: JSdayBR
           <span>{{ event.date | date_to_string }}</span>
           <p>{{ event.content }}</p>
         </article>
-    {% if currentdate != date %}
-      </section>
-      {% assign date = currentdate %}
-    {% endif %}
   {% endfor %}
   </div>
 </div>

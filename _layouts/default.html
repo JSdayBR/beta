@@ -24,14 +24,18 @@
       {{ content }}
     </section>
     <section id="newsletter">
-        <h3>Fique ligado e receba todas as novidades do JSday Brasil!</h3>
+        <!-- <h3>Fique ligado e receba todas as novidades do JSday Brasil!</h3>
         <span>Também não gostamos de spam :)</span>
         <input type="email" name="" id="">
-        <button>ENVIAR!</button>
+        <button>ENVIAR!</button> -->
+        <img src="{{ "/assets/images/background-newsletter.png" | prepend: site.baseurl }}" alt="JS">
     </section>
     <section id="footer">
-      <div>
-        <p>Quer organizar o JSday no seu estado? Mande um email para <a class="link" href="mailto:jsdaybr@gmail.com">jsdaybr@gmail.com</a></p>
+      <div class='hero'>
+        <img src="{{ "/assets/images/rhino-yellow.png" | prepend: site.baseurl }}" alt="JS">
+      </div>
+      <div class='footline'>
+        <h3>Quer organizar o JSday no seu estado? Mande um email para <a class="link" href="mailto:jsdaybr@gmail.com">jsdaybr@gmail.com</a></h3>
       </div>
     </section>
   </div>

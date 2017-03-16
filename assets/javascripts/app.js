@@ -17,4 +17,10 @@ $(document).ready(function() {
             scrollTop: $( $.attr(this, 'href') ).offset().top
         }, 500);
     });
+
+    $(document).on('click', 'a.nav__event_item', function(event){
+        event.preventDefault();
+        $('.event_year.current').toggleClass('current');
+        $($.attr(this, 'href')).toggleClass('current');
+    });
 });

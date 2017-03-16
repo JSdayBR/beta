@@ -1,0 +1,26 @@
+#events {
+  max-width: 1024px;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  nav {
+    text-align: center;
+    a {
+      @include monoidbold(18px);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+
+  .event_year {
+    margin-bottom: 40px;
+    display: none;
+    &.current {
+      display: block;
+    }
+  }
+}
