@@ -2,12 +2,12 @@ $(document).ready(function() {
     $(document).scroll(function() {
         var value = $("body").scrollTop();
         if (value < 660) {
-            $("a[href=#events]").removeClass("nav__item--current");
-            $("a[href=#home]").addClass("nav__item--current");
+            $("a[href='#events']").removeClass("nav__item--current");
+            $("a[href='#home']").addClass("nav__item--current");
         }
         if (value >= 660) {
-            $("a[href=#home]").removeClass("nav__item--current");
-            $("a[href=#events]").addClass("nav__item--current");
+            $("a[href='#home']").removeClass("nav__item--current");
+            $("a[href='#events']").addClass("nav__item--current");
         }
     });
 
