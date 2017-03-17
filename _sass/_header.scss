@@ -1,7 +1,7 @@
 .header {
   width: 100%;
-  min-height: 80vh;
-  background: $background-dark;
+  min-height: 100vh;
+  background: $background-dark url(../images/js-animation.gif) no-repeat center 45%;
   color: $color-light;
 
   .nav-bar {
@@ -50,27 +50,17 @@
     }
   }
 
-  .header__wrap {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 40px 0;
-    box-sizing: border-box;
-    position: relative;
-  }
-
   .header__about {
-    clear: both;
-    box-sizing: border-box;
-    padding: 120px;
+    width: 660px;
     text-align: center;
-    font-size: 16px;
-    img {
-      max-width: 100%;
-      margin: 0 0 45px;
-    }
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    margin: 0 0 0 -330px;
     p {
       max-width: 680px;
       margin: 0 auto;
+      font-size: 16px;
       line-height: 1.2;
     }
   }  

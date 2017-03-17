@@ -1,18 +1,26 @@
-#events {
-  max-width: 1024px;
-  margin: 0 auto;
+.events {
 
-  h1 {
+  .events__title {
+    @include monoidbold(60px);
     text-align: center;
     text-transform: uppercase;
   }
 
-  nav {
+  .events-nav {
     text-align: center;
-    a {
+    margin: 0 0 100px;
+
+    .events-nav__item {
       @include monoidbold(18px);
+      color: $color-dark;
       text-transform: uppercase;
       text-decoration: none;
+      display: inline-block;
+      padding: 10px;
+      transition: background .3s;
+      &.events-nav__item--current {
+        background: $background-primary;
+      }
     }
   }
 

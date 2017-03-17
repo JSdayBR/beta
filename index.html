@@ -2,20 +2,20 @@
 layout: default
 title: JSdayBR
 ---
-<div id="events">
-  <h1>Edições</h1>
+<div id="events" class="events">
+  <h1 class="events__title">Edições</h1>
 
-  <nav>
+  <nav class="events-nav">
     {% for event in site.categories.events %}
       {% assign currentdate = event.date | date: "%Y" %}
       {% if currentdate != date %}
-        <a class='nav__event_item' href="#{{currentdate}}">{{currentdate}}</a>
+        <a class="events-nav__item" href="#{{currentdate}}">{{currentdate}}</a>
         {% assign date = currentdate %}
       {% endif %}
     {% endfor %}
   </nav>
 
-  <div class="events">
+  <div class="events-list">
   {% assign date = '' %}
   {% assign init = 'true' %}
   {% for event in site.categories.events %}
