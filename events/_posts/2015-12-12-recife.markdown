@@ -1,6 +1,15 @@
 ---
-title:  "JSday Recife"
+title:  "Recife"
 date:   2015/12/12
+image: assets/images/events/recife2015.png
+participants: +226
+talks: 24
+workshops: 4
+hours: +36h
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+O JSDay Recife foi a edição que gerou mais conteúdo, foram 36 horas divididas entre as atividades do dia.
+
+Esta edição foi realizada nas instalações do CESAR EDU, braço acadêmico do maior instituto de inovação e pesquisa do Brasil, o CESAR, que fica no coração do vale do silício do Brasil, o Porto Digital.
+
+ Uma edição pra ficar na memório e no coração dos apaixonados por javascript, além de procar que essa linguagem está em todos lugares.

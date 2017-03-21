@@ -34,9 +34,13 @@ title: JSdayBR
     {% endif %}
         <article>
           <h2>{{ event.title }}</h2>
-          <img src="" alt="">
+          <img src="{{ event.image }}" alt="{{ event.title }}">
           <span>{{ event.date | date_to_string }}</span>
           <p>{{ event.content }}</p>
+          <p>
+            <span>FICHA TÉCNICA</span>
+            {{ event.participants }} PARTICIPANTES | {{ event.talks }} PALESTRAS | {{ event.workshops }} WORKSHOP | {{ event.hours }} DE CONTEÚDO
+          </p>
         </article>
   {% endfor %}
   </div>
