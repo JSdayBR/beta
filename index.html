@@ -3,13 +3,20 @@ layout: default
 title: JSdayBR
 ---
 <div id="events" class="events">
+  <a class="events__anchor" id="events-anchor"></a>
   <h1 class="events__title">Edições</h1>
 
   <nav class="events-nav">
+    {% assign init = 'true' %}
     {% for event in site.categories.events %}
       {% assign currentdate = event.date | date: "%Y" %}
       {% if currentdate != date %}
-        <a class="events-nav__item" href="#{{currentdate}}">{{currentdate}}</a>
+        {% if init == 'true' %}
+          <a class="events-nav__item events-nav__item--current" href="#{{currentdate}}">{{currentdate}}</a>
+          {% assign init = 'false' %}
+        {% else %}
+          <a class="events-nav__item" href="#{{currentdate}}">{{currentdate}}</a>
+        {% endif %}
         {% assign date = currentdate %}
       {% endif %}
     {% endfor %}
@@ -32,15 +39,19 @@ title: JSdayBR
       {% assign date = currentdate %}
       {% assign init = 'false' %}
     {% endif %}
-        <article>
-          <h2>{{ event.title }}</h2>
-          <img src="{{ event.image }}" alt="{{ event.title }}">
-          <span>{{ event.date | date_to_string }}</span>
-          <p>{{ event.content }}</p>
-          <p>
-            <span>FICHA TÉCNICA</span>
-            {{ event.participants }} PARTICIPANTES | {{ event.talks }} PALESTRAS | {{ event.workshops }} WORKSHOP | {{ event.hours }} DE CONTEÚDO
-          </p>
+        <article class='event'>
+          <div class="aside">
+            <h2>{{ event.title }}</h2>
+            <img src="{{ event.image }}" alt="{{ event.title }}">
+          </div>
+          <div class="content">
+            <span>{{ event.date | date_to_string }}</span>
+            <p>{{ event.content }}</p>
+            <p>
+              <span>FICHA TÉCNICA</span>
+              {{ event.participants }} PARTICIPANTES | {{ event.talks }} PALESTRAS | {{ event.workshops }} WORKSHOP | {{ event.hours }} DE CONTEÚDO
+            </p>
+          </div>
         </article>
   {% endfor %}
   </div>
