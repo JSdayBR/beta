@@ -2,10 +2,14 @@
 title:  "Maceió"
 date:   2015/09/12
 image: assets/images/events/maceio2015.png
-participants: +226
-talks: 24
-workshops: 4
-hours: +36h
+participants: 212
+talks: 10
+workshops: 1
+hours: +16h
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+O JSday Maceió foi a segunda edição do JSday Brasil, e provou a força da comunidade JavaScript Alagoano.
+
+Essa edição contou com alto nível técnico das palestras, com a presença do Juarez Filho, Google Developer Expert, e o Felipe de Albuquerque, Front End Engineer no CESAR Recife com a palestra "NodeBots: JavaScript além das telas".
+
+Além de expandir o número de participantes, o JSday Maceió provou que é possível romper as barreiras e levar conhecimento para o Nordeste inteiro.

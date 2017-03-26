@@ -43,6 +43,10 @@
     margin-bottom: 30px;
     display: flex;
     .aside {
+      h2 {
+        @include monoidbold(22px);
+        font-weight: bold;
+      }
     }
     .content {
       padding: 25px;
@@ -53,6 +57,20 @@
       }
       p {
         line-height: 1.3;
+      }
+
+      .record span {
+        color: white;
+        background-color: black;
+        padding: 5px;
+      }
+
+      .record .values {
+        font-weight: normal;
+        display: block;
+        color: black;
+        background-color: #ffe000;
+        padding: 10px;
       }
     }
   }

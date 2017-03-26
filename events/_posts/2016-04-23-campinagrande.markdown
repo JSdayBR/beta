@@ -1,11 +1,15 @@
 ---
-title:  "JSday Campina Grande"
+title:  "Campina Grande"
 date:   2016/04/23
 image: assets/images/events/campinagrande2016.png
-participants: +226
-talks: 24
-workshops: 4
-hours: +36h
+participants: 458
+talks: 12
+workshops: 2
+hours: +16h
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+O JSday Campina Grande foi sem dúvidas o maior evento do JSday realizado no Brasil, contou com mais de 450 pessoas, e foi realizado no belíssimo teatro da FACISA.
+
+Muito código, palestras, 2 workshops e um networking de altíssima qualidade com participantes de Recife, Maceió, São Paulo, João Pessoa e outras cidades da região.
+
+Mais um dia marcado na história do JSday Brasil.

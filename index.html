@@ -45,11 +45,13 @@ title: JSdayBR
             <img src="{{ event.image }}" alt="{{ event.title }}">
           </div>
           <div class="content">
-            <span>{{ event.date | date_to_string }}</span>
+            <span>{{ event.date | date: '%d.%m.%Y' }}</span>
             <p>{{ event.content }}</p>
-            <p>
+            <p class="record">
               <span>FICHA TÉCNICA</span>
-              {{ event.participants }} PARTICIPANTES | {{ event.talks }} PALESTRAS | {{ event.workshops }} WORKSHOP | {{ event.hours }} DE CONTEÚDO
+              <span class="values">
+                <b>{{ event.participants }}</b> PARTICIPANTES | <b>{{ event.talks }}</b> PALESTRAS | <b>{{ event.workshops }}</b> WORKSHOP | <b>{{ event.hours }}</b> DE CONTEÚDO
+              </span>
             </p>
           </div>
         </article>
