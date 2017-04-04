@@ -12,4 +12,4 @@ O JSDay Recife foi a edição que gerou mais conteúdo, foram 36 horas divididas
 
 Esta edição foi realizada nas instalações do CESAR EDU, braço acadêmico do maior instituto de inovação e pesquisa do Brasil, o CESAR, que fica no coração do vale do silício do Brasil, o Porto Digital.
 
- Uma edição pra ficar na memório e no coração dos apaixonados por javascript, além de procar que essa linguagem está em todos lugares.
+ Uma edição pra ficar na memória e no coração dos apaixonados por Javascript, além de provar que essa linguagem está em todos lugares.
