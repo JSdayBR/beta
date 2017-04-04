@@ -10,8 +10,7 @@ hours: +36h
 
 Realizada novamente nas instalações do CESAR EDU, o JSDay Recife mais uma vez reuniu a comunidade Javascript para mais de 36 horas de conteúdo, palestras e troca de experiências.
 
-Destaques para Felipe Albuquerque, Front-end Engineer do CESAR falando sobre robótica com Javascript, e também para Reinaldo Ferraz abordando acessibilidade na web.
+Destaque para o Codelab com as meninas do Women Who Code Recife e pela iniciativa de incluir especialistas na linguagem de sinais, deixando o evento ainda mais acessível e inclusivo!
 
-Essa edição contou pela primeira vez com especialistas na linguagem de sinais, deixando o evento ainda mais acessível e inclusivo!
-
+Essa edição contou com a participação de toda a comunidade de desenvolvedores e de empresas como ThoughtWorks, CESAR e InlocoMedia.
 
