@@ -1,7 +1,8 @@
 .header {
   width: 100%;
-  min-height: 100vh;
-  background: $background-dark url(../images/js-animation.gif) no-repeat center 45%;
+  position: relative;
+  overflow: hidden;
+  background: $background-dark;
   color: $color-light;
 
   .nav-bar {
@@ -50,18 +51,85 @@
     }
   }
 
+  .js-line-logo {
+    .js-line-logo__lines {
+      fill:none;
+      fill-rule:evenodd;
+      stroke:#fff;
+      stroke-width:4px;
+      stroke-linecap:round;
+      stroke-linejoin:miter;
+      animation: 2s cubic-bezier(0.215, 0.61, 0.355, 1) 1.5s 1 both;
+      &#j-one {
+        stroke-dasharray: 485;
+        stroke-dashoffset: 485;
+        animation-name: dash-animation-j-one;
+      }
+      &#j-two {
+        stroke-dasharray: 510;
+        stroke-dashoffset: 510;
+        animation-name: dash-animation-j-two;
+      }
+      &#j-three {
+        stroke-dasharray: 340;
+        stroke-dashoffset: 340;
+        animation-name: dash-animation-j-three;
+      }
+      &#s-one {
+        stroke-dasharray: 630;
+        stroke-dashoffset: 630;
+        animation-name: dash-animation-s-one;
+      }
+      &#s-two {
+        stroke-dasharray: 330;
+        stroke-dashoffset: 330;
+        animation-name: dash-animation-s-two;
+      }
+      &#s-three {
+        stroke-dasharray: 755;
+        stroke-dashoffset: 755;
+        animation-name: dash-animation-s-three;
+      }
+    }
+  }
+
   .header__about {
     width: 660px;
     text-align: center;
-    position: absolute;
-    bottom: 80px;
-    left: 50%;
-    margin: 0 0 0 -330px;
+    margin: 140px auto 80px;
+    h2 {
+      width: 490px;
+      @include monoidbold(42px);
+      color: $color-dark;
+      text-transform: uppercase;
+      display: block;
+      background: $background-primary;
+      margin: 25px auto 50px;
+      padding: 15px 0 0;
+      text-indent: 0;
+      position: relative;
+      overflow: hidden;
+      animation: tape-animation 5s cubic-bezier(0.215, 0.61, 0.355, 1) 2.5s 1 both;
+      &::before {
+        content: '';
+        display: block;
+        height: 42px;
+        width: 0;
+        top: 8px;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, 0);
+        background: $background-dark;
+        animation: tape-animation-black 5s cubic-bezier(0.215, 0.61, 0.355, 1) 2.5s 1 both;
+      }
+    }
     p {
       max-width: 680px;
       margin: 0 auto;
       font-size: 16px;
       line-height: 1.2;
+      position: relative;
+      animation: about-text-animation .8s cubic-bezier(0.215, 0.61, 0.355, 1) 3.5s 1 both;
     }
   }  
 }

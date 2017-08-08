@@ -1,0 +1,61 @@
+/* JS Logo */
+
+@keyframes dash-animation-j-one {
+    0% { stroke-dashoffset: 485; }
+    25% { stroke-dashoffset: 0; }
+    50% { stroke-dashoffset: 242; }
+    100% { stroke-dashoffset: 0; }
+  }
+  @keyframes dash-animation-j-two {
+    0% { stroke-dashoffset: 510; }
+    25% { stroke-dashoffset: 0; }
+    50% { stroke-dashoffset: 260; }
+    100% { stroke-dashoffset: 0; }
+  }
+  @keyframes dash-animation-j-three {
+    0% { stroke-dashoffset: 340; }
+    25% { stroke-dashoffset: 0; }
+    50% { stroke-dashoffset: 170; }
+    100% { stroke-dashoffset: 0; }
+  }
+  @keyframes dash-animation-s-one {
+    0% { stroke-dashoffset: 630; }
+    25% { stroke-dashoffset: 0; }
+    50% { stroke-dashoffset: 315; }
+    100% { stroke-dashoffset: 0; }
+  }
+  @keyframes dash-animation-s-two {
+    0% { stroke-dashoffset: 330; }
+    25% { stroke-dashoffset: 0; }
+    50% { stroke-dashoffset: 165; }
+    100% { stroke-dashoffset: 0; }
+  }
+  @keyframes dash-animation-s-three {
+    0% { stroke-dashoffset: 755; }
+    25% { stroke-dashoffset: 0; }
+    50% { stroke-dashoffset: 370; }
+    100% { stroke-dashoffset: 0; }
+  }
+
+  @keyframes tape-animation {
+    0% { width: 14px; opacity: 0; color: $color-primary; text-indent: -999em;}
+    2% { opacity: 1; }
+    4% { opacity: 0; }
+    6% { opacity: 1; }
+    8% { opacity: 0; }
+    10% { width: 14px; opacity: 1; }
+    20% { width: 560px; text-indent: 0; }
+    25% { width: 490px; color: $color-primary; }
+    28% { color: $color-dark; }
+  }
+  @keyframes tape-animation-black {
+    0% { width: 0; }
+    18% { width: 0; }
+    28% { width: 193px; }
+    35% { width: 0; }
+  }
+  @keyframes about-text-animation {
+    0% { opacity: 0; top: -30px; }
+    50% { opacity: 1; top: 15px; }
+    100% { top: 0; }
+  }
